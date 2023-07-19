@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 122, 53);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.logo{
+    font-size: 40px;
+    color: antiquewhite;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+
+.home,
+.about,
+.contacts,
+.signup,
+.skills{
+    margin: 0 10px ;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    cursor: pointer;
+}
